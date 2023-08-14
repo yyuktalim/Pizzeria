@@ -1,0 +1,636 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+/*header css start*/
+.header{
+	background: url(../images/gallery/headerbg.jpg);
+	border-bottom-left-radius: 470px;	
+	border-bottom-right-radius: 470px;	
+}
+.header .header-bg{
+	background: #111417;
+	background: rgba(17, 20, 23,.7);
+	border-bottom-left-radius: 470px; 
+	border-bottom-right-radius: 470px;	
+}
+.header .row{
+	padding: 30px;
+}
+.header .row .col-md-3{}
+.header .row .col-md-3 .header-social-links{}
+.header .row .col-md-3 .header-social-links ul{
+	list-style: none;
+}
+.header .row .col-md-3 .header-social-links ul li{
+	display: inline-block;
+}
+.header .row .col-md-3 .header-social-links ul li a{
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 20px;
+	color: #dcdbd2;
+}
+.header .row .col-md-3 .header-social-links ul li a:hover{
+	color: white;
+}
+
+.header .row .col-md-6{}
+.header .row .col-md-6 .header-main-menu{}
+.header .row .col-md-6 .header-main-menu h3{
+	color: white;
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.header .row .col-md-6 .header-main-menu ul{
+	list-style: none;
+}
+.header .row .col-md-6 .header-main-menu ul li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+}
+.header .row .col-md-6 .header-main-menu ul li a{
+	color: #dcdbd2;
+	text-decoration: none;
+	padding: 10px;
+}
+.header .row .col-md-6 .header-main-menu ul li a:hover{
+	color: white;
+}
+
+.header .row .col-md-3 .header-order-button{
+	margin-left: 30px;
+}
+.header .row .col-md-3 .header-order-button .order-online{
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid white;
+	background: transparent;
+	font-family: 'Padauk', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 30px;
+}
+.header .row .col-md-3 .header-order-button .order-online:hover{
+	background: white;
+	color: black;
+}
+
+.header .row .col-md-12{
+	padding: 50px;
+	padding-top: 30px;
+}
+.header .row .col-md-12 .header-text{}
+.header .row .col-md-12 .header-text h1{
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+	padding-top: 70px;
+}
+.header .row .col-md-12 .header-text p{
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.header .row .col-md-12 .header-text form{
+	padding: 40px;
+	margin-bottom: 200px;
+	margin-left: 155px;
+}
+.header .row .col-md-12 .header-text form .book-a-table{
+	display: inline-block;
+    color: white;
+    background: red;
+    border: 2px solid red;
+    width: 180px;
+    height: 50px;
+    font-family: 'Padauk', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 155px;
+}
+.header .row .col-md-12 .header-text form .book-a-table:hover{
+	background: #c10d0d;
+	border: 2px solid #c10d0d;
+}
+.header .row .col-md-12 .header-text form .takeaway{
+	text-align: center;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    width: 180px;
+    height: 50px;
+    font-family: 'Padauk', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.header .row .col-md-12 .header-text form .takeaway:hover{
+	background: white;
+	color: black;
+}
+
+/*header css end*/
+
+/*about us css start*/
+.about-us{
+	background: #F7F6F2;
+	margin-top: 10px;
+}
+.about-us .row{
+}
+.about-us .row .col-md-12{}
+.about-us .row .col-md-12 .about-us-img{
+	margin-top: -200px;
+}
+.about-us .row .col-md-12 .about-us-img img{
+	display: block;
+	position: relative;
+	top: 30%;
+	left: 30%
+}
+
+
+.about-us .row .col-md-4{
+	padding-top: 30px;
+	margin-bottom: 70px;
+}
+.about-us .row .col-md-4 .ingredients{
+}
+.about-us .row .col-md-4 .ingredients img{
+	border-radius: 500px;
+	display: block;
+	position: relative;
+	top: 30%;
+	left: 20%
+}
+.about-us .row .col-md-4 .ingredients h3{
+	color: red;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+}
+.about-us .row .col-md-4 .ingredients p{
+	text-align: center;
+	padding: 5px;
+}
+.about-us .row .col-md-4 .fresh-ingredients{}
+.about-us .row .col-md-4 .fresh-ingredients img{
+	margin-top: -100px;
+}
+.about-us .row .col-md-4 .handmade-mozarella{}
+.about-us .row .col-md-4 .handmade-mozarella img{
+	margin-top: 20px;
+}
+.about-us .row .col-md-4 .secret-sauce{}
+.about-us .row .col-md-4 .secret-sauce img{
+	margin-top: -100px;
+}
+
+/*about us css end*/
+
+/*bringing-happiness css start*/
+.bringing-happiness{
+	background: url(../images/gallery/bringing-happiness-bg.jpg);
+}
+.bringing-happiness .bringing-happiness-bg{
+	background: #111417;
+	background: rgba(17, 20, 23,.7); 
+}
+.bringing-happiness .row{
+	padding: 15px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.bringing-happiness .row .col-md-3{}
+.bringing-happiness .row .col-md-3 .bringing{
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+.bringing-happiness .row .col-md-3 .bringing h1{
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 65px;
+}
+.bringing-happiness .row .col-md-3 .bringing p{
+	color: white;
+	margin-top: 25px;
+}
+.bringing-happiness .row .col-md-3 .bringing img{
+	width: 100px;
+	border-radius: 500px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	display: block;
+	position: relative;
+	top: 35%;
+	left: 35%;
+}
+.bringing-happiness .row .col-md-3 .bringing h3{
+   font-family: 'Oswald', sans-serif;	
+   color: white;
+   text-align: center;
+}
+.bringing-happiness .row .col-md-3 .bringing form{
+}
+.bringing-happiness .row .col-md-3 .bringing form .bringing-happiness-button{
+	border: transparent;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	font-family: 'Padauk', sans-serif;
+	display: block;
+	position: relative;
+	top: 35%;
+	left: 20%;
+}
+.bringing-happiness .row .col-md-3 .bringing form .bringing-happiness-button:hover{
+	color: red;
+}
+
+/*bringing-happiness css end*/
+
+/*flavor css starts*/
+.flavor{
+	background: #F7F6F2;
+	border-bottom-left-radius: 300px;
+	border-bottom-right-radius: 300px;
+}
+.flavor .row{}
+.flavor .row .col-md-12{
+	padding: 50px;
+	margin-top: 40px;
+}
+.flavor .row .col-md-12 h5{
+	font-family: 'Padauk', sans-serif;
+	color: red;
+	text-align: center;
+}
+.flavor .row .col-md-12 h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	padding: 15px;
+}
+.flavor .row .col-md-12 p{
+	text-align: center;
+	color: grey;
+}
+.flavor .row .col-md-12 form{}
+.flavor .row .col-md-12 .flavor-all-menu-button{
+	color: red;
+	border: 1px solid red;
+	font-family: 'Padauk', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	background: transparent;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	display: block;
+	position: relative;
+	top: 45%;
+	left: 40%
+}
+.flavor .row .col-md-12 .flavor-all-menu-button:hover{
+	background: #c10d0d;
+	border: 2px solid #c10d0d;
+	color: white;
+}
+.flavor .row .col-md-4 .flavor-img{
+	transition: 1s;
+}
+.flavor .row .col-md-4 .flavor-img:hover{
+	transform: scale(1.1);
+	z-index: 1;
+}
+.flavor .row .col-md-4 .flavor-img img{
+	width: 350px;
+	padding: 15px;
+	display: block;
+	position: relative;
+	top: 45%;
+	left: 10%;
+}
+.flavor .row .col-md-4 .pasta{
+    margin-top: -60px;
+}
+.flavor .row .col-md-4 .pizza{
+    margin-top: 50px;
+}
+.flavor .row .col-md-4 .dessert{
+    margin-top: -60px;
+}
+.flavor .row .col-md-4 .flavor-img{
+	margin-bottom: 60px;
+}
+.flavor .row .col-md-4 .flavor-img h3{
+	color: red;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+/*flavor css ends*/
+
+/*best deals css start*/
+.best-deals{
+	background: #F7F6F2;
+	margin-top: 10px;
+}
+.best-deals .row{
+}
+.best-deals .row .col-md-3{}
+.best-deals .row .col-md-3 .best-deals-text{}
+.best-deals .row .col-md-3 .best-deals-text h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background: red;
+	font-size: 60px;
+	margin-top: 80px;
+}
+
+.best-deals .row .col-md-3{}
+.best-deals .row .col-md-3 .view-button{
+	margin-left: 90px;
+}
+.best-deals .row .col-md-3 .view-button form{}
+.best-deals .row .col-md-3 .view-button form .best-deals-view-button{
+	background: transparent;
+	border: 1px solid red;
+	color: red;
+	width: 150px;
+	height: 50px;
+	font-family: 'Padauk', sans-serif;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 80px;
+}
+.best-deals .row .col-md-3 .view-button form .best-deals-view-button:hover{
+	background: #c10d0d;
+	border: 2px solid #c10d0d;
+	color: white;
+}
+.best-deals .row .col-md-12 {
+	padding-right: 30px;
+	padding-left: 40px;
+}
+.best-deals .row .col-md-12 .best-deals-img{
+	margin-bottom: 140px;
+	margin-top: 50px;
+	box-shadow: 5px 4px 12px 2px #888888;
+}
+.best-deals .row .col-md-12 .best-deals-img img{
+	width: 590px;
+	height: 350px;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 60px;
+}
+/*best deals css end*/
+
+/*location css starts*/
+.location{
+	background: #F7F6F2;
+}
+.location .row{}
+.location .row .col-md-12 {}
+.location .row .col-md-12 .location-text h5{
+	font-family: 'Padauk', sans-serif;
+	color: red;
+	text-align: center;
+}
+.location .row .col-md-12 .location-text h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	padding: 15px;
+}
+.location .row .col-md-12 .location-text p{
+	text-align: center;
+	color: grey;
+	margin-bottom: 50px;
+}
+.location .row .col-md-3{}
+.location .row .col-md-3 .location-places{
+	margin-bottom: 180px;
+}
+.location .row .col-md-3 .location-places h1{
+	font-family: 'Oswald', sans-serif;
+	color: red;
+	text-align: center;
+	padding: 10px;
+}
+.location .row .col-md-3 .location-places p{
+	text-align: center;
+	font-weight: bold;
+}
+/*location css ends*/
+
+/*opportunities css starts*/
+.opportunities{
+	background: #F7F6F2;
+}
+.opportunities .row{}
+.opportunities .row .col-md-6{
+	margin-bottom: 200px;
+}
+.opportunities .row .col-md-6 .opportunities-text{
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.opportunities .row .col-md-6 .opportunities-text h5{
+	font-family: 'Padauk', sans-serif;
+	color: red;
+}
+.opportunities .row .col-md-6 .opportunities-text h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 65px;
+	margin-top: 20px;
+}
+.opportunities .row .col-md-6 .opportunities-communication{
+	margin-top: 65px;
+}
+.opportunities .row .col-md-6 .opportunities-communication p{
+	color: grey;
+	font-size: 17px;
+	line-height: 35px;
+}
+.opportunities .row .col-md-6 .opportunities-communication form{
+	padding-top: 20px;
+}
+.opportunities .row .col-md-6 .opportunities-communication .opportunities-get-in-touch{
+	background: transparent;
+	border: 1px solid red;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+    border-radius: 5px;
+}
+.opportunities .row .col-md-6 .opportunities-communication .opportunities-get-in-touch:hover{
+	background: #c10d0d;
+	border: 2px solid #c10d0d;
+	color: white;
+}
+/*opportunities css ends*/
+
+
+/*free-delivery css start*/
+.free-delivery{
+	background: #F7F6F2;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+.free-delivery .row .col-md-7{
+}
+.free-delivery .row .col-md-7 .free-delivery-text{
+	margin-top: 70px;
+}
+.free-delivery .row .col-md-7 .free-delivery-text h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.free-delivery .row .col-md-7 .free-delivery-text h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 65px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.free-delivery .row .col-md-7 .free-delivery-text p{
+	color: grey;
+	margin-left: 30px;
+	line-height: 30px;
+}
+.free-delivery .row .col-md-7 .free-delivery-text form .free-delivery-button{
+	background: transparent;
+	border: 1px solid red;
+	color: red;
+	font-family: 'Padauk', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	width: 190px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.free-delivery .row .col-md-7 .free-delivery-text form .one:hover{
+	background: #c10d0d;
+	border: 2px solid #c10d0d;
+	color: white;
+}
+.free-delivery .row .col-md-7 .free-delivery-text form .two:hover{
+	background: white;
+	border: 2px solid #c10d0d;
+	color: #c10d0d;
+}
+
+.free-delivery .row .col-md-5 .free-delivery-img{
+	transition: 1s;
+	margin-top: 30px;
+}
+.free-delivery .row .col-md-5 .free-delivery-img:hover{
+	transform: scale(1.1);
+	z-index: 1;
+}
+.free-delivery .row .col-md-5 .free-delivery-img img{
+	margin-left: 40px;
+}
+/*free delivery css end*/
+
+/*footer css start*/
+.footer{
+	margin: 50px; 
+}
+.footer .row{}
+.footer .row .col-md-3{}
+.footer .row .col-md-3 .foot{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.footer .row .col-md-3 .foot h4{
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 10px;
+	display: block;
+	position: relative;
+	top: 45%;
+	left: 16%;
+}
+.footer .row .col-md-3 .foot ul{
+	list-style: none;
+}
+.footer .row .col-md-3 .foot ul li{
+	padding: 5px;
+}
+.footer .row .col-md-3 .foot ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.footer .row .col-md-3 .foot ul li a:hover{
+	color: red;
+}
+
+.footer .row .col-md-3 .footer-social-links{}
+.footer .row .col-md-3 .footer-social-links h4{
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	color: red;
+    display: block;
+	position: relative;
+	top: 45%;
+	left: 1%;
+}
+.footer .row .col-md-3 .footer-social-links p{
+	color: grey;
+}
+.footer .row .col-md-3 .footer-social-links ul{}
+.footer .row .col-md-3 .footer-social-links ul li{
+	display: inline-block;
+
+}
+.footer .row .col-md-3 .footer-social-links ul li a{
+	color: black;
+	font-size: 23px;
+	padding: 5px;
+}
+
+.footer .row .col-md-3 .footer-about-us{
+}
+.footer .row .col-md-3 .footer-our-menu{}
+.footer .row .col-md-3 .footer-our-location{}
+
+.footer .row .col-md-3 .footer-last{
+	margin-top: 50px;
+}
+.footer .row .col-md-3 .one p{
+    font-size: 14px;
+	color: grey;
+	margin-right: 10px;
+}
+.footer .row .col-md-3 .three p{
+	font-size: 14px;
+	color: grey;
+	margin-left: 110px;
+}
+/*footer css end*/
+
+
+
+
+
